@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>AkhbarCom</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body class="body">
+        
+        <header class="main_header">
+            <nav>
+                <ul class="ul">
+                    <li><a href="index.html">الرئيسية</a></li>
+                    <li><a href="news.html">أخبار</a></li>
+                    <li><a href="contact.html">تواصل معنا</a></li>
+                    <li><a href="#" class="active" class="login_li">التسجيل بالموقع</a></li>
+                    <li><a href="login.html" class="login_li">تسجيل الدخول</a></li>
+                </ul>
+            </nav>
+        </header>
+
+
+        <div>
+            <form action="#" method="POST" class="sign_up">
+                الأسم <input type="text" name="full_name" placeholder="اكتب اسمك" required><br><br>
+                الإيميل <input type="email" name="email" placeholder="أكتب الإيميل" required><br><br>
+                كلمة السر <input type="password" name="password" placeholder="أكتب كلمة السر" required><br><br>
+                تأكيد كلمة السر <input type="password" name="password" placeholder="أكتب كلمة السر" required><br><br>
+                رقم الهاتف <input type="number" name="phone_no" placeholder="أكتب رقم الهاتف"><br><br>
+                الجنس:
+                  ذكر <input type="radio" name="gender" nochecked>
+                   أنثى<input type="radio" name="gender" nochecked><br><br>
+                المحافظة:
+                <select name="cities" id="cities">
+                    <option value="sanaa" selected>صنعاء</option>
+                    <option value="ammran">عمران</option>
+                    <option value="thamar">ذمار</option>
+                    <option value="taiz">تعز</option>
+                    <option value="ib">إب</option>
+                </select>
+                <br><br>
+                <button type="button" value="تسجيل" class="sign_button" onclick="alert('تم التسجيل')">تسجيل</button>
+
+
+
+            </form>
+        </div>
+
+
+
+
+
+    </body>
+</html>

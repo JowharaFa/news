@@ -1,0 +1,267 @@
+@font-face {
+    font-family: main_font;
+    src: url('../fonts/ArbFONTS-AlHurraTxtreg.ttf');
+}
+
+@font-face {
+    font-family: second_font;
+    src: url('../fonts/ArbFONTS-AlHurraTxtlight.ttf');
+}
+
+@font-face {
+    font-family: Social_font;
+    src: url('../fonts/Social\ Color\ Pro.ttf');
+}
+
+
+body{
+   /* background-image: url('../images/bg_img2.jpg'); */
+   font-size: 87%;
+   font-family: main_font;
+   line-height: 1.5;
+   text-align: right;
+}
+
+.body{
+    margin: 0 auto;
+    width: 70%;
+    clear: both;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*------------------- main header -------------------------*/
+
+.main_header nav{
+    margin-top: 3%;
+    background-color: #333333;
+    height: 50px;
+    border-radius: 5px;
+    -webkit-boreder-radius: 5px;
+    -moz-boreder-radius: 5px;
+}
+
+
+.main_header nav ul{
+    
+    list-style: none;
+    margin: 0 auto;
+    text-align: right;
+} 
+
+.main_header nav ul li{
+    display: inline;
+}
+
+.main_header a:link , .main_header a:visited{
+    color: white;
+    padding: 15px 40px;
+    display: inline-block;
+}
+
+.main_header a:hover{
+    background-color: #111111;
+}
+
+.active{
+    background-color: red;
+    color: white;
+}
+
+.login_li{
+    float: left;
+}
+
+
+/*----------------- main content ----------------*/
+
+.top_content{
+    background-color: white;
+    margin-top: 3%;
+    padding: 3%;
+    display: inline-block;
+    border-radius: 5px;
+    -webkit-boreder-radius: 5px;
+    -moz-boreder-radius: 5px;
+}
+
+.post_title{
+    color: red;
+}
+
+.post_info{
+    color: #999;
+    font-style: oblique;
+    margin-top: -19px;
+}
+
+.img_content{
+    width: 300px;
+    height: 300px;
+    float: right;
+    margin-left: 50px;
+}
+
+.post_content,details{
+    margin-right: 50px;
+    text-align: justify;
+}
+
+summary{
+    color: red;
+}
+
+/*----------------- footer --------------------------*/
+
+.footer{
+    background-color: #111111;
+    height: 170px;
+    color: white;
+    text-align: center;
+    padding: 3%;
+    font-family: second_font;
+    margin-top: 3%;
+}
+
+svg{
+    width: 25px;
+    padding-left: 10px;
+}
+
+.social_icone{
+    font-family: Social_font;
+    font-size: 28px;
+}
+
+.Developer_info{
+    font-family: monospace;
+    margin-top: -40px;
+    font-size: 13px;
+}
+
+
+/*----------------------contact page ------------------------------*/
+
+.contact{
+    margin-top: 20px;
+    padding: 3%;
+    border: 1px solid black;
+    border-radius: 5px;
+    -webkit-boreder-radius: 5px;
+    -moz-boreder-radius: 5px;
+}
+
+.send_button{
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    -webkit-boreder-radius: 5px;
+    -moz-boreder-radius: 5px;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 4px 3px;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: main_font;
+    height: 40px;
+    text-align: center;
+}
+
+
+/*--------------------- sign up page -----------------------------------*/
+
+.sign_up{
+    margin-top: 20px;
+    padding: 3%;
+    border: 1px solid black;
+    border-radius: 5px;
+    -webkit-boreder-radius: 5px;
+    -moz-boreder-radius: 5px;
+}
+
+.sign_button{
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    -webkit-boreder-radius: 5px;
+    -moz-boreder-radius: 5px;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 4px 3px;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: main_font;
+    height: 40px;
+    text-align: center;
+}
+
+
+/*------------------------- login page -----------------------------*/
+
+.body_login{
+    width: 70%;
+    clear: both;
+    margin: 0 auto;
+}
+
+
+
+.login_form{
+    margin:  2.6% -3%;
+    padding: 3%;
+    /* border: 1px solid black;
+    border-radius: 5px;
+    -webkit-boreder-radius: 5px;
+    -moz-boreder-radius: 5px; */
+    width: 100%;
+
+}
+
+.login_button{
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    -webkit-boreder-radius: 5px;
+    -moz-boreder-radius: 5px;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 4px 3px;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: main_font;
+    height: 40px;
+    text-align: center;
+}
+
+.no_acount{
+    float: left;
+    text-decoration: underline;
+}
+
+.no_acount a:hover{
+    color: blue;
+}
+
+button:hover{
+    color: white;
+    background-color: #111111;
+}
+
+input:checked{
+    height: 15px;
+    width: 15px;
+}
+
+
+
+
+
+
+
+
+
